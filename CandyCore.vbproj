@@ -83,7 +83,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LINQQuery.vb" />
+    <Compile Include="GPS\GPS.vb" />
+    <Compile Include="Test\LINQQuery.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -101,6 +102,7 @@
     </Compile>
     <Compile Include="Test\ExcelRW2003.vb" />
     <Compile Include="Test\ExcelRW.vb" />
+    <Compile Include="utils\TestStopwatch.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
